@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.btn {
+  background-color: #e02c6d;
+  color: #fff;
+  margin-top: 20px;
+  border: 0;
+  padding: 15px 30px;
+  border-radius: 41px;
+}
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+.navbar ul li {
+  margin: 10px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+/* Hero section */
+
+.hero-section {
+  display: flex;
+  align-items: center;
+}
+.hero-text h1 {
+  font-weight: bold;
+  font-size: 52px;
+  color: #3a3a3a;
+}
+.hero-text p {
+  font-weight: 600;
+  font-size: 16px;
+  color: #3a3a3a;
+}
+.hero-img {
+  margin-top: 50px;
+}
+.hero-img img {
+  width: 100%;
+}
+/* featured */
+
+.featured {
+  border: 1px solid #3a3a3a;
+  display: flex;
+  justify-content: center;
+}
+.featured img {
+  margin-left: 61px;
+}
