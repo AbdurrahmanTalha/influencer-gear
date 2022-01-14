@@ -19,6 +19,15 @@ body {
   border: 0;
   padding: 15px 30px;
   border-radius: 41px;
+  transition: 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #ff3636;
 }
 
 .section-title {
@@ -47,6 +56,10 @@ nav {
   color: #3a3a3a;
   font-size: 16px;
   font-weight: 600;
+}
+
+.logo {
+  margin-left: 45px;
 }
 
 .logo a {
@@ -105,6 +118,9 @@ nav {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
+.ratings i {
+  margin-bottom: 20px;
+}
 .ratings {
   color: orange;
   font-size: 14px;
@@ -133,4 +149,189 @@ nav {
 .item-price {
   font-weight: 400;
   font-size: 24px;
+}
+
+.ratings span {
+  color: #5e6366;
+}
+
+/* Footer */
+
+footer {
+  background-color: #0a0826;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+footer h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+footer p {
+  font-size: 14px;
+  color: #d9dbe1;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  font-size: 22px;
+  padding: 20px;
+  background-color: #22213c;
+
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socials a {
+  margin-right: 20px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+/* Animation */
+
+.hero-text h1 span {
+  font-size: 60px;
+  white-space: nowrap;
+  position: relative;
+  color: transparent;
+}
+
+.hero-text h1 span:before {
+  content: "Start your Journey";
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #22bedd;
+  animation: typing 3s linear infinite;
+}
+
+@keyframes typing {
+  0% {
+    content: "S";
+  }
+  3% {
+    content: "St";
+  }
+  6% {
+    content: "Sta";
+  }
+  9% {
+    content: "Sta";
+  }
+  12% {
+    content: "Star";
+  }
+  15% {
+    content: "Start";
+  }
+  18% {
+    content: "Start y";
+  }
+  21% {
+    content: "Start yo ";
+  }
+  24% {
+    content: "Start you ";
+  }
+  27% {
+    content: "Start your ";
+  }
+  30% {
+    content: "Start your J";
+  }
+  33% {
+    content: "Start your Jo";
+  }
+  36% {
+    content: "Start your Jou";
+  }
+  39% {
+    content: "Start your Jour";
+  }
+  42% {
+    content: "Start your Journ";
+  }
+  45% {
+    content: "Start your Journe";
+  }
+  48% {
+    content: "Start your Journey";
+  }
+
+  51% {
+    content: "Start your Journe";
+  }
+  54% {
+    content: "Start your Journ";
+  }
+  57% {
+    content: "Start your Jour";
+  }
+  60% {
+    content: "Start your Jou";
+  }
+  63% {
+    content: "Start your Jo";
+  }
+  66% {
+    content: "Start your J";
+  }
+  69% {
+    content: "Start your ";
+  }
+  72% {
+    content: "Start you";
+  }
+  75% {
+    content: "Start yo";
+  }
+  78% {
+    content: "Start y";
+  }
+
+  81% {
+    content: "Start";
+  }
+  84% {
+    content: "Star";
+  }
+  87% {
+    content: "Sta";
+  }
+  90% {
+    content: "St";
+  }
+  93% {
+    content: "S";
+  }
+  96% {
+    content: "";
+  }
+  100% {
+    content: "";
+  }
+}
+
+.seemore-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.seemore-btn a {
+  color: #e02c6d;
+  text-decoration: none;
+  margin-right: 20px;
 }
