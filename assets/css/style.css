@@ -426,6 +426,9 @@ nav {
   .hero-section {
     margin: 0 20px;
   }
+  .footer {
+      width: 795px;
+
 }
 
 @media (min-width: 769px) and(max-width:1400px) {
